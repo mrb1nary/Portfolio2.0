@@ -1,5 +1,5 @@
 import React from "react";
-import wave from "../assets/wave-haikei.svg";
+import wave from "../assets/blue-wave.svg";
 import profile from "../assets/profile.jpg";
 import { SiGmail } from "react-icons/si";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
@@ -15,7 +15,7 @@ function Header() {
       />
 
       <navbar className="flex w-full justify-center items-center text-white text-2xl">
-        <ul className="flex justify-between items-center w-[50%] mt-6 ">
+        <ul className="flex justify-between items-center w-[50%] mt-6">
           <li>Contact</li>
           <li>Projects</li>
           <li className="flex justify-center items-center w-[140px] bg-[#51bdf3]/75 rounded-l cursor-pointer">
@@ -35,8 +35,8 @@ function Header() {
             </h2>
           </div>
         </div>
-        <div className="overflow-clip relative rounded-2xl mr-[10rem] w-[650px] h-[450px] ">
-          <div className="bg-[#8728d8] h-full w-full opacity-30 z-[-10] absolute">
+        <div className="overflow-clip relative rounded-2xl mr-[10rem] w-[650px] h-[450px] shadow-lg shadow-emerald-700 ">
+          <div className="bg-[#8728d8] h-full w-full opacity-30 z-[-10] absolute ">
             <div className=" z-[-10] h-[250px] w-[250px] left-[-100px] top-[-50px] absolute rounded-full m-[5px] blur-2xl bg-pink-400 "></div>
             <div className=" z-[-10] h-[450px] w-[250px] rotate-45 absolute rounded-full top-[120px] bottom-[-100px] left-[450px] blur-2xl bg-violet-400 "></div>
           </div>
