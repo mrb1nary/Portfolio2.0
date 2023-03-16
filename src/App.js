@@ -3,7 +3,7 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App scroll-smooth">
       <Header />
       <Skills />
     </div>
